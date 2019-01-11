@@ -1,0 +1,84 @@
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    color: black;
+    cursor: inherit;
+    display: block;
+}
+.main
+{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    height: 500px;
+    background-color: transparent;
+    display: table;
+    color: black;
+
+}
+.content
+{
+    padding:20px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+.card-title {
+      font-weight: 600;
+      color: #414345;
+   }
+  
+
+.card{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.card {
+   border-radius: 8pt;
+   border-style: none;
+   overflow: hidden;
+ 
+   left: 0px;
+   transform: scale(0.90);
+  
+
+}
+body
+{
+   margin:0px;
+   overflow-x: hidden;
+}
+.container
+{
+    margin-top: 600px;
+}
+
+
+
